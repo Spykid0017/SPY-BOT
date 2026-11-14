@@ -1,48 +1,48 @@
-# SPY BOT — Free WhatsApp Bot by Benfei Tech
+# SPY BOT — Free WhatsApp Bot by Divine dev
 
 [![Validate SPY-BOT](https://github.com/Spykid0017/SPY-BOT/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/Spykid0017/SPY-BOT/actions/workflows/validate.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/WhatsApp-Baileys-25D366?logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
 
 <p align="center">
-  <a href="https://github.com/Benfeitech/FEI-XMD">
-    <img src="https://img.shields.io/badge/⭐_Star_this_repo-top_right_corner-f1c40f?style=for-the-badge&logo=github&logoColor=white" alt="Star FEI XMD on GitHub">
+  <a href="https://github.com/Spykid0017/SPY-BOT">
+    <img src="https://img.shields.io/badge/⭐_Star_this_repo-top_right_corner-f1c40f?style=for-the-badge&logo=github&logoColor=white" alt="Star SPY BOT on GitHub">
   </a>
-  <a href="https://github.com/Benfeitech/FEI-XMD/fork">
-    <img src="https://img.shields.io/badge/Fork-Project-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Fork FEI XMD on GitHub">
+  <a href="https://github.com/Spykid0017/SPY-BOT/fork">
+    <img src="https://img.shields.io/badge/Fork-Project-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Fork SPY BOT on GitHub">
   </a>
 </p>
 
-<p align="center"><i>Like FEI XMD? Tap the ⭐ <b>Star</b> button at the top of this page to support the project.</i></p>
+<p align="center"><i>Like SPY BOT? Tap the ⭐ <b>Star</b> button at the top of this page to support the project.</i></p>
 
 <p align="center">
   <a href="https://fei-xmd.benfeilab.com">
-    <img src="https://res.cloudinary.com/dqqyvozdw/image/upload/v1792848652/arbeimjfqkkfpn9zvfhf.png" alt="FEI XMD WhatsApp bot by Benfei Tech" width="720">
+    <img src="https://res.cloudinary.com/dqqyvozdw/image/upload/v1794661365/o5jhmwztvs9yvgp1dpgt.jpg" alt="SPY BOT WhatsApp bot by Divine dev" width="720">
   </a>
 </p>
 
-**FEI XMD** is a free, modular WhatsApp bot developed and powered by **Benfei Tech**. It brings AI chat, AI media generation, social-media downloads, group tools, news, games, anime information and other everyday utilities into WhatsApp. Pair a WhatsApp account through the [official FEI XMD pairing website](https://fei-xmd.benfeilab.com), or explore and run the bot from this public GitHub source repository.
+**SPY BOT** is a free, modular WhatsApp bot developed and powered by **Benfei Tech**. It brings AI chat, AI media generation, social-media downloads, group tools, news, games, anime information and other everyday utilities into WhatsApp. Pair a WhatsApp account through the [official SPY BOT pairing website](https://fei-xmd.benfeilab.com), or explore and run the bot from this public GitHub source repository.
 
-The official product identity is **FEI XMD WhatsApp Bot | Official Pairing by Benfei Tech**. This repository contains the main FEI XMD bot source code. The pairing portal is a separate web application.
+The official product identity is **SPY BOT WhatsApp Bot | Official Pairing by Divine dev**. This repository contains the main SPY BOT bot source code. The pairing portal is a separate web application.
 
-## FEI XMD — official project information
+## SPY BOT — official project information
 
 | Project detail | Official information |
 | --- | --- |
-| Product name | FEI XMD |
-| Full product description | Free WhatsApp bot developed and powered by Benfei Tech |
+| Product name | SPY BOT |
+| Full product description | Free WhatsApp bot developed and powered by Divine dev |
 | Developer and publisher | [Benfei Tech](https://benfeitech.com) |
 | Official pairing website | [https://fei-xmd.benfeilab.com](https://fei-xmd.benfeilab.com) |
 | Main bot source code | [github.com/Benfeitech/FEI-XMD](https://github.com/Benfeitech/FEI-XMD) |
-| WhatsApp Channel | [𝐁𝐄𝐍𝐅𝐄𝐈 𝐓𝐄𝐂𝐇 ™](https://whatsapp.com/channel/0029VbCwtVY65yDBVR9uhJ02) |
+| WhatsApp Channel | [𝐒𝐏𝐘 𝐁𝐎𝐓](https://whatsapp.com/channel/0029Vb8fSoa2ZjClN9cL3843) |
 | YouTube | [@benfeitech](https://www.youtube.com/@benfeitech) |
-| Telegram | [t.me/benfeitech](https://t.me/benfeitech) |
-| Support | [WhatsApp Benfei Tech](https://wa.me/2349060715145) |
-| Bot artwork | [Official FEI XMD image](https://res.cloudinary.com/dqqyvozdw/image/upload/v1792848652/arbeimjfqkkfpn9zvfhf.png) |
+| Telegram | [t.me/bookielord](https://t.me/bookielord) |
+| Support | [WhatsApp Benfei Tech](https://wa.me/2349017790750) |
+| Bot artwork | [Official SPY BOT image](https://res.cloudinary.com/dqqyvozdw/image/upload/v1794661365/o5jhmwztvs9yvgp1dpgt.jpg) |
 
-## What can FEI XMD do?
+## What can SPY BOT do?
 
-FEI XMD groups its **202 public commands into 18 menu sections**. The command menu is designed for WhatsApp conversations and groups, with feature-specific permission checks where an action affects group settings.
+SOY BOT groups its **202 public commands into 18 menu sections**. The command menu is designed for WhatsApp conversations and groups, with feature-specific permission checks where an action affects group settings.
 
 - **AI Chat:** chat with configured AI providers, ask questions, translate text, summarize content and use supported reasoning or writing tools.
 - **AI Media:** generate images from text prompts and convert text to speech using supported providers.
@@ -80,9 +80,9 @@ FEI XMD groups its **202 public commands into 18 menu sections**. The command me
 
 The Channel menu section is intentionally not included. The bot configuration retains the official Benfei Tech newsletter name and newsletter JID as branding metadata only; this public command set does not add a Channel menu, channel-management commands or automatic channel-following features.
 
-## Official FEI XMD pairing website
+## Official SPY BOY pairing website
 
-Use the official [FEI XMD pairing portal](https://fei-xmd.benfeilab.com) for browser-based pairing, or pair directly from the interactive terminal when running this repository locally. The terminal flow asks for your WhatsApp number and prints a one-time pairing code; you do not need to edit source code or manually create an authentication file.
+Use the official [SPY BOT pairing portal](https://fei-xmd.benfeilab.com) for browser-based pairing, or pair directly from the interactive terminal when running this repository locally. The terminal flow asks for your WhatsApp number and prints a one-time pairing code; you do not need to edit source code or manually create an authentication file.
 
 **Interactive terminal pairing**
 
@@ -237,11 +237,11 @@ No. The Channel menu section and channel-management commands are intentionally e
 - **Benfei Tech:** https://benfeitech.com
 - **WhatsApp newsletter:** https://whatsapp.com/channel/0029VbCwtVY65yDBVR9uhJ02
 - **YouTube:** https://www.youtube.com/@benfeitech
-- **Telegram:** https://t.me/benfeitech
-- **WhatsApp support:** https://wa.me/2349060715145
+- **Telegram:** https://t.me/bookielord
+- **WhatsApp support:** https://wa.me/2349017790750
 
 ---
 
-**SPY BOT — WhatsApp automation by Benfei Tech.**
+**SPY BOT — WhatsApp automation by Divine dev.**
 
 ⚡ *ENGRAVED BY DIVINE DEV*
