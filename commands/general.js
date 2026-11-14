@@ -125,7 +125,7 @@ const commands = [
     run: async ctx => {
       await ctx.reply(
         "🛟 " + ctx.config.name + " Support\nFor setup help or bug reports, contact " +
-        ctx.config.ownerName + ".\n\nGitHub: https://github.com/spykid0017/SPY-MD"
+        ctx.config.ownerName + ".\n\nGitHub: https://github.com/spykid0017/SPY-BOT"
       );
     }
   },
