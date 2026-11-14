@@ -21,7 +21,7 @@
   </a>
 </p>
 
-**SPY BOT** is a free, modular WhatsApp bot developed and powered by **Benfei Tech**. It brings AI chat, AI media generation, social-media downloads, group tools, news, games, anime information and other everyday utilities into WhatsApp. Pair a WhatsApp account through the [official SPY BOT pairing website](https://fei-xmd.benfeilab.com), or explore and run the bot from this public GitHub source repository.
+**SPY BOT** is a free, modular WhatsApp bot developed and powered by **Divine dev**. It brings AI chat, AI media generation, social-media downloads, group tools, news, games, anime information and other everyday utilities into WhatsApp. Pair a WhatsApp account through the [official SPY BOT pairing website](https://fei-xmd.benfeilab.com), or explore and run the bot from this public GitHub source repository.
 
 The official product identity is **SPY BOT WhatsApp Bot | Official Pairing by Divine dev**. This repository contains the main SPY BOT bot source code. The pairing portal is a separate web application.
 
