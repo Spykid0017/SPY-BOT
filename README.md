@@ -31,18 +31,18 @@ The official product identity is **SPY BOT WhatsApp Bot | Official Pairing by Di
 | --- | --- |
 | Product name | SPY BOT |
 | Full product description | Free WhatsApp bot developed and powered by Divine dev |
-| Developer and publisher | [Benfei Tech](https://benfeitech.com) |
+| Developer and publisher | [Divine dev](https://benfeitech.com) |
 | Official pairing website | [https://fei-xmd.benfeilab.com](https://fei-xmd.benfeilab.com) |
-| Main bot source code | [github.com/Benfeitech/FEI-XMD](https://github.com/Benfeitech/FEI-XMD) |
+| Main bot source code | [github.com/Spykid0017/SPY-BOT](https://github.com/Spykid0017/SPY-BOT) |
 | WhatsApp Channel | [𝐒𝐏𝐘 𝐁𝐎𝐓](https://whatsapp.com/channel/0029Vb8fSoa2ZjClN9cL3843) |
 | YouTube | [@benfeitech](https://www.youtube.com/@benfeitech) |
 | Telegram | [t.me/bookielord](https://t.me/bookielord) |
-| Support | [WhatsApp Benfei Tech](https://wa.me/2349017790750) |
+| Support | [WhatsApp Divine dev](https://wa.me/2349017790750) |
 | Bot artwork | [Official SPY BOT image](https://res.cloudinary.com/dqqyvozdw/image/upload/v1794661365/o5jhmwztvs9yvgp1dpgt.jpg) |
 
 ## What can SPY BOT do?
 
-SOY BOT groups its **202 public commands into 18 menu sections**. The command menu is designed for WhatsApp conversations and groups, with feature-specific permission checks where an action affects group settings.
+SPY BOT groups its **202 public commands into 18 menu sections**. The command menu is designed for WhatsApp conversations and groups, with feature-specific permission checks where an action affects group settings.
 
 - **AI Chat:** chat with configured AI providers, ask questions, translate text, summarize content and use supported reasoning or writing tools.
 - **AI Media:** generate images from text prompts and convert text to speech using supported providers.
@@ -78,9 +78,9 @@ SOY BOT groups its **202 public commands into 18 menu sections**. The command me
 | Status Tools | statusdraft, statusideas, gcstatus, gcstatusdm, autostatus, autoview, statusreact, statusreactmode, statusreactkeys |
 | Owner Tools | runtime |
 
-The Channel menu section is intentionally not included. The bot configuration retains the official Benfei Tech newsletter name and newsletter JID as branding metadata only; this public command set does not add a Channel menu, channel-management commands or automatic channel-following features.
+The Channel menu section is intentionally not included. The bot configuration retains the official Divine dev newsletter name and newsletter JID as branding metadata only; this public command set does not add a Channel menu, channel-management commands or automatic channel-following features.
 
-## Official SPY BOY pairing website
+## Official SPY BOT pairing website
 
 Use the official [SPY BOT pairing portal](https://fei-xmd.benfeilab.com) for browser-based pairing, or pair directly from the interactive terminal when running this repository locally. The terminal flow asks for your WhatsApp number and prints a one-time pairing code; you do not need to edit source code or manually create an authentication file.
 
@@ -91,7 +91,7 @@ Use the official [SPY BOT pairing portal](https://fei-xmd.benfeilab.com) for bro
 3. Enter digits only, including the country code (for example, `2348012345678`). The prompt validates the number and lets you retry if it is invalid. Enter `Q` to cancel.
 4. Copy the pairing code printed in the terminal.
 5. On your phone, open **WhatsApp → Settings → Linked devices → Link a device → Link with phone number instead**.
-6. Enter the code shown in the terminal. Keep the terminal process running while FEI XMD connects.
+6. Enter the code shown in the terminal. Keep the terminal process running while SPY BOT connects.
 
 For unattended startup, set `PAIRING_NUMBER` in `.env`; this skips the interactive number prompt and requests a code for that number. Leave it empty to use the interactive terminal prompt. The pairing code is sensitive: do not share it or publish terminal screenshots containing it.
 
@@ -103,13 +103,13 @@ The pairing website and the bot source code are separate project components: thi
 
 - Node.js **20.9 or newer**
 - npm
-- A WhatsApp account to link to FEI XMD
+- A WhatsApp account to link to SPY BOT
 
 ### Install
 
 ~~~bash
-git clone https://github.com/Benfeitech/FEI-XMD.git
-cd FEI-XMD
+git clone https://github.com/Spykid0017/SPY-BOT.git
+cd SPY-BOT
 npm install
 ~~~
 
@@ -139,11 +139,11 @@ You can also use:
 npm run local
 ~~~
 
-The default owner is **Benfei Tech**, with one configured owner number: **2349060715145**. The OWNER_NUMBER environment variable can override this value for a private deployment. Do not add a second owner number to this public configuration.
+The default owner is **Divine dev**, with one configured owner number: **2349060715145**. The OWNER_NUMBER environment variable can override this value for a private deployment. Do not add a second owner number to this public configuration.
 
 ### Choose any command prefix
 
-Set `PREFIX` in your `.env` file to any non-empty string you want. FEI XMD uses that exact value when detecting commands; it is not restricted to a single punctuation character. Examples:
+Set `PREFIX` in your `.env` file to any non-empty string you want. SPY BOT uses that exact value when detecting commands; it is not restricted to a single punctuation character. Examples:
 
 ~~~dotenv
 PREFIX=!
@@ -155,19 +155,19 @@ PREFIX=fei
 PREFIX=#
 ~~~
 
-After changing the prefix, restart FEI XMD. With `PREFIX=fei`, for example, use `feimenu` instead of `.menu`. If your chosen prefix contains spaces or dotenv-special characters, wrap the value in double quotes, for example `PREFIX="my prefix "`.
+After changing the prefix, restart SPY BOT. With `PREFIX=fei`, for example, use `feimenu` instead of `.menu`. If your chosen prefix contains spaces or dotenv-special characters, wrap the value in double quotes, for example `PREFIX="my prefix "`.
 
 ### Main configuration
 
 | Variable | Purpose | Default |
 | --- | --- | --- |
-| BOT_NAME | WhatsApp bot display name | FEI XMD |
+| BOT_NAME | WhatsApp bot display name | SPY BOT |
 | BOT_VERSION | Displayed bot version | 1.0.0 |
 | PREFIX | Any non-empty command prefix; supports symbols, words and multi-character strings | . |
-| OWNER_NAME | Configured owner/developer name | Benfei Tech |
+| OWNER_NAME | Configured owner/developer name | Divine dev |
 | OWNER_NUMBER | The single owner WhatsApp number, digits only | 2349060715145 |
 | BOT_URL | Official pairing website shown with the menu artwork | https://fei-xmd.benfeilab.com |
-| BOT_IMAGE_URL | FEI XMD menu artwork | Official Cloudinary image |
+| BOT_IMAGE_URL | SPY BOT menu artwork | Official Cloudinary image |
 | FEI_SESSION_DIR | Local WhatsApp authentication directory | ./auth_info_baileys |
 | FEI_DATA_DIR | Local writable data directory | ./data |
 | DATABASE_URL | Optional PostgreSQL connection for future database-backed features | Empty |
@@ -176,7 +176,7 @@ Never commit a real .env file, WhatsApp authentication files, session credential
 
 ## Technology
 
-FEI XMD is built with:
+SPY BOT is built with:
 
 - **Node.js** and JavaScript ES modules.
 - **@whiskeysockets/baileys** — the normal WhiskeySockets Baileys npm package, pinned to **7.0.0-rc14**.
@@ -185,11 +185,11 @@ FEI XMD is built with:
 - Bounded API clients for external AI, news, download, anime and media services.
 - Node.js built-in test runner for automated regression tests.
 
-This repository does not install the separate KaluLabs Baileys fork used by other FEI XMD project deployments.
+This repository does not install the separate KaluLabs Baileys fork used by other SPY BOT project deployments.
 
 ## Privacy and public-release boundaries
 
-The public FEI XMD command set deliberately avoids features that collect or expose more private account or chat information than needed. It excludes group-chat history collection and AI summaries of private conversations, live-presence tracking, anti-edit monitoring, read-receipt controls and contact blocking. Anti-delete is opt-in per chat and uses a short-lived in-memory cache; it does not cache view-once messages. The .vv and .vv2 commands run only when explicitly invoked as a reply to view-once media.
+The public SPY BOT command set deliberately avoids features that collect or expose more private account or chat information than needed. It excludes group-chat history collection and AI summaries of private conversations, live-presence tracking, anti-edit monitoring, read-receipt controls and contact blocking. Anti-delete is opt-in per chat and uses a short-lived in-memory cache; it does not cache view-once messages. The .vv and .vv2 commands run only when explicitly invoked as a reply to view-once media.
 
 Group-setting commands apply permission checks. Invite-link retrieval and member tagging are restricted to group admins, and member tagging is capped. Welcome and goodbye messages are disabled by default; their settings are stored separately from chat history. Status auto-view and reactions are owner-controlled and disabled by default. Anti-delete is off by default and only stores enabled-chat messages temporarily in memory.
 
@@ -206,35 +206,35 @@ npm test
 
 GitHub Actions runs both checks on pushes and pull requests targeting main. The test suite covers command registration, menu ordering, excluded commands, API URL validation, news parsing, state storage, message utilities and calculator safety.
 
-External providers can change their APIs, apply rate limits or become temporarily unavailable. A provider outage does not mean that the FEI XMD WhatsApp runtime itself is offline.
+External providers can change their APIs, apply rate limits or become temporarily unavailable. A provider outage does not mean that the SPY BOT WhatsApp runtime itself is offline.
 
 ## Frequently asked questions
 
-### What is FEI XMD?
+### What is SPY BOT?
 
-FEI XMD is a free, modular WhatsApp bot developed and powered by Benfei Tech. It provides AI chat and media tools, downloads, news, group utilities, games, anime features and other commands inside WhatsApp.
+SPY BOT is a free, modular WhatsApp bot developed and powered by Divine dev. It provides AI chat and media tools, downloads, news, group utilities, games, anime features and other commands inside WhatsApp.
 
-### Where is the official FEI XMD pairing website?
+### Where is the official SPY BOT pairing website?
 
 The official pairing portal is [https://fei-xmd.benfeilab.com](https://fei-xmd.benfeilab.com).
 
-### Where can I find the FEI XMD source code?
+### Where can I find the SPY BOT source code?
 
-The canonical main bot source repository is [https://github.com/Benfeitech/FEI-XMD](https://github.com/Benfeitech/FEI-XMD).
+The canonical main bot source repository is [https://github.com/Spykid0017/SPY-BOT](https://github.com/Spykid0017/SPY-BOT).
 
-### Who develops FEI XMD?
+### Who develops SPY BOT?
 
-FEI XMD is developed and powered by [Benfei Tech](https://benfeitech.com).
+SPY BOT is developed and powered by [Divine dev](https://benfeitech.com).
 
-### Does the public FEI XMD bot include a Channel menu?
+### Does the public SPY BOT bot include a Channel menu?
 
-No. The Channel menu section and channel-management commands are intentionally excluded from this public command set. The official Benfei Tech newsletter identity remains in the bot configuration as project branding metadata.
+No. The Channel menu section and channel-management commands are intentionally excluded from this public command set. The official Divine dev newsletter identity remains in the bot configuration as project branding metadata.
 
 ## Official links
 
-- **Pair FEI XMD:** https://fei-xmd.benfeilab.com
-- **Main FEI XMD source code:** https://github.com/Benfeitech/FEI-XMD
-- **Benfei Tech:** https://benfeitech.com
+- **Pair SPY BOT:** https://fei-xmd.benfeilab.com
+- **Main SPY BOT source code:** https://github.com/Spykid0017/SPY-BOT
+- **Divine dev:** https://benfeitech.com
 - **WhatsApp newsletter:** https://whatsapp.com/channel/0029VbCwtVY65yDBVR9uhJ02
 - **YouTube:** https://www.youtube.com/@benfeitech
 - **Telegram:** https://t.me/bookielord
