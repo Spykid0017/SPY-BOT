@@ -1,6 +1,6 @@
-# FEI XMD — Free WhatsApp Bot by Benfei Tech
+# SPY BOT — Free WhatsApp Bot by Benfei Tech
 
-[![Validate FEI XMD](https://github.com/Benfeitech/FEI-XMD/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/Benfeitech/FEI-XMD/actions/workflows/validate.yml)
+[![Validate SPY-BOT](https://github.com/Spykid0017/SPY-BOT/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/Spykid0017/SPY-BOT/actions/workflows/validate.yml)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/WhatsApp-Baileys-25D366?logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
 
@@ -242,6 +242,6 @@ No. The Channel menu section and channel-management commands are intentionally e
 
 ---
 
-**FEI XMD — WhatsApp automation by Benfei Tech.**
+**SPY BOT — WhatsApp automation by Benfei Tech.**
 
-⚡ *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙᴇɴꜰᴇɪ ᴛᴇᴄʜ*
+⚡ *ENGRAVED BY DIVINE DEV*
