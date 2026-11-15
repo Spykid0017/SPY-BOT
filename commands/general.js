@@ -109,7 +109,7 @@ const commands = [
   {
     name: "owner",
     category: "General",
-    description: "Show Benfei Tech owner details.",
+    description: "Show Divine dev owner details.",
     run: async ctx => {
       const number = ownerNumber(ctx.config);
       await ctx.reply(
